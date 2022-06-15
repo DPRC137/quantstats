@@ -270,7 +270,7 @@ def autocorr_penalty(returns, prepare_returns=False):
 
 def sharpe(returns, rf=0., periods=252, annualize=True, smart=False):
     """
-    Calculates the sharpe ratio of access returns
+    Calculates the sharpe ratio of excess returns
 
     If rf is non-zero, you must specify periods.
     In this case, rf is assumed to be expressed in yearly (annualized) terms
